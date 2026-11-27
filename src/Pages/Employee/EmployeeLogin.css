@@ -1,0 +1,467 @@
+/* =========================================================
+   ACROSS ASSIST EMPLOYEE LOGIN
+========================================================= */
+
+.employee-login-page {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+
+  background: #f8f9fb;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   LEFT BANNER
+========================================================= */
+
+.employee-login-banner {
+   width: 65%;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+
+  background: #ffffff;
+}
+
+
+.employee-login-banner-image {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: left center;
+}
+
+
+
+
+.employee-login-right {
+  width: 34%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  background: #f8f9fb;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  z-index: 3;
+}
+
+
+/* =========================================================
+   LOGIN CARD
+========================================================= */
+
+.employee-login-card {
+  width: 100%;
+  max-width: 380px;
+
+  background: #ffffff;
+
+  border-radius: 20px;
+
+  padding: 42px 38px 45px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.employee-login-logo {
+  width: 190px;
+  max-width: 70%;
+
+  height: auto;
+
+  display: block;
+
+  margin: 0 auto 25px;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.employee-login-header {
+  text-align: center;
+
+  margin-bottom: 18px;
+}
+
+
+.employee-login-header h2 {
+  margin: 0 0 6px;
+
+  font-size: 22px;
+
+  line-height: 28px;
+
+  font-weight: 700;
+
+  color: #123d8d;
+}
+
+
+.employee-login-header p {
+  margin: 0;
+
+  font-size: 13px;
+
+  line-height: 18px;
+
+  color: #444444;
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.employee-form-group {
+  width: 100%;
+
+  margin-bottom: 14px;
+}
+
+
+.employee-form-group input {
+  width: 100%;
+
+  height: 42px;
+
+  padding: 0 12px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #c9c9c9;
+
+  border-radius: 4px;
+
+  background: #ffffff;
+
+  color: #333333;
+
+  font-size: 13px;
+
+  outline: none;
+
+  transition: border-color 0.2s ease;
+}
+
+
+.employee-form-group input::placeholder {
+  color: #999999;
+}
+
+
+.employee-form-group input:focus {
+  border-color: #3984c6;
+
+  box-shadow: none;
+}
+
+
+/* =========================================================
+   LOGIN BUTTON
+========================================================= */
+
+.employee-login-btn {
+  width: 140px;
+
+  height: 34px;
+
+  display: block;
+
+  margin: 0 auto;
+
+  border: none;
+
+  border-radius: 4px;
+
+  background: #3984c6;
+
+  color: #ffffff;
+
+  font-size: 13px;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease;
+}
+
+
+.employee-login-btn:hover {
+  background: #2f75b3;
+}
+
+
+.employee-login-btn:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================================================
+   OTP EMAIL
+========================================================= */
+
+.employee-email-display {
+  text-align: center;
+
+  font-size: 13px;
+
+  line-height: 18px;
+
+  color: #777777;
+
+  margin-bottom: 15px;
+}
+
+
+.employee-email-display strong {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #222222;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  word-break: break-word;
+}
+
+
+/* =========================================================
+   CHANGE EMAIL
+========================================================= */
+
+.employee-change-email {
+  width: 100%;
+
+  margin-top: 17px;
+
+  padding: 0;
+
+  border: none;
+
+  background: transparent;
+
+  color: #0056d6;
+
+  font-size: 13px;
+
+  cursor: pointer;
+}
+
+
+.employee-change-email:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.employee-login-error {
+  width: 100%;
+
+  padding: 8px 10px;
+
+  margin-bottom: 12px;
+
+  box-sizing: border-box;
+
+  border-radius: 4px;
+
+  background: #ffe8e8;
+
+  color: #d10000;
+
+  font-size: 12px;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   SUCCESS
+========================================================= */
+
+.employee-login-success {
+  width: 100%;
+
+  padding: 8px 10px;
+
+  margin-bottom: 12px;
+
+  box-sizing: border-box;
+
+  border-radius: 4px;
+
+  background: #e7f8ed;
+
+  color: #16803c;
+
+  font-size: 12px;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.employee-login-footer {
+  position: absolute;
+
+  left: 20px;
+  right: 20px;
+
+  bottom: 30px;
+
+  text-align: center;
+
+  color: #777777;
+
+  font-size: 11px;
+
+  line-height: 17px;
+}
+
+
+.employee-login-footer span {
+  color: #0056d6;
+}
+
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+@media (min-width: 1200px) {
+
+  .employee-login-banner {
+    width: 66%;
+  }
+
+  .employee-login-right {
+    width: 34%;
+  }
+
+  .employee-login-card {
+    max-width: 380px;
+  }
+}
+
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .employee-login-banner {
+    width: 60%;
+  }
+
+  .employee-login-right {
+    width: 40%;
+
+    padding: 20px;
+  }
+
+  .employee-login-card {
+    max-width: 350px;
+
+    padding: 35px 30px 38px;
+  }
+
+  .employee-login-logo {
+    width: 170px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+  .employee-login-page {
+    min-height: 100vh;
+
+    height: auto;
+  }
+
+
+  .employee-login-banner {
+    display: none;
+  }
+
+
+  .employee-login-right {
+    width: 100%;
+
+    min-height: 100vh;
+
+    height: auto;
+
+    padding: 20px;
+  }
+
+
+  .employee-login-card {
+    max-width: 380px;
+
+    padding: 35px 25px 40px;
+  }
+
+
+  .employee-login-logo {
+    width: 170px;
+  }
+
+
+  .employee-login-footer {
+    position: static;
+
+    margin-top: 25px;
+  }
+}

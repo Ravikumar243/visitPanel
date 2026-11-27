@@ -1,0 +1,1781 @@
+/* =========================================
+   BASE LOCATION - FIRST LOGIN
+   MOBILE DESIGN
+========================================= */
+
+.base-location-content {
+  flex: 1;
+
+  padding: 30px 20px 0;
+
+  text-align: left;
+
+  overflow-y: hidden;
+}
+
+
+/* =========================================
+   LOCATION ICON
+========================================= */
+
+.base-location-icon {
+  width: 52px;
+  height: 52px;
+
+  margin: 0 0 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #e8f3fd;
+  color: #175589;
+}
+
+.base-location-icon svg {
+  font-size: 28px;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.base-location-content h2 {
+  margin: 0 0 8px;
+
+  color: #111827;
+
+  font-size: 19px;
+  font-weight: 500;
+
+  line-height: 1.3;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.base-location-description {
+  width: 100%;
+  max-width: 100%;
+
+  margin: 0;
+
+  color: #687386;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================
+   WHY LOCATION CARD
+========================================= */
+
+.base-location-info-card {
+  width: 100%;
+  max-width: none;
+
+  margin: 20px 0 8px;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 10px;
+
+  padding: 12px;
+
+  text-align: left;
+
+  background: #f5f7fa;
+
+  border: none;
+
+  border-radius: 11px;
+
+  box-shadow: none;
+}
+
+
+/* INFO ICON */
+
+.base-location-info-icon {
+  width: 34px;
+  height: 34px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+  background: #e8f3fd;
+  color: #175589;
+}
+
+.base-location-info-icon svg {
+  font-size: 18px;
+}
+
+
+/* INFO TITLE */
+
+.base-location-info-card h4 {
+  margin: 0 0 4px;
+
+  color: #111827;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* INFO DESCRIPTION */
+
+.base-location-info-card p {
+  margin: 0;
+
+  color: #687386;
+
+  font-size: 10px;
+
+  line-height: 1.45;
+}
+
+
+/* =========================================
+   PERMISSION CARD
+========================================= */
+
+.base-location-permission-card {
+  width: 100%;
+  max-width: none;
+
+  margin: 8px 0 0;
+
+  padding: 12px;
+
+  text-align: left;
+
+  background: #ffffff;
+
+  border: 1px solid #dfe5eb;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+
+/* PERMISSION HEADER */
+
+.base-location-permission-header {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  margin-bottom: 9px;
+
+  color: #536274;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.base-location-permission-header .permission-dot {
+  width: 7px;
+  height: 7px;
+
+  flex-shrink: 0;
+
+  display: inline-block;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+}
+
+
+/* PERMISSION TEXT */
+
+.base-location-permission-text {
+  padding: 9px;
+
+  background: #f8fafc;
+
+  border-radius: 7px;
+
+  color: #4b5563;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+}
+
+
+/* =========================================
+   PERMISSION BUTTONS
+========================================= */
+
+.base-location-permission-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 6px;
+
+  margin-top: 9px;
+}
+
+.base-location-block-btn,
+.base-location-allow-btn {
+  min-width: 65px;
+
+  height: 27px;
+
+  padding: 0 12px;
+
+  border-radius: 6px;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.base-location-block-btn {
+  border: 1px solid #d1d5db;
+
+  background: #ffffff;
+
+  color: #4b5563;
+}
+
+.base-location-allow-btn {
+  border: none;
+
+  background: #245985;
+
+  color: #ffffff;
+}
+
+.base-location-allow-btn:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.base-location-footer {
+  flex-shrink: 0;
+
+  margin-top: auto;
+
+  padding: 0 20px 20px;
+
+  border-top: none;
+
+  display: block;
+}
+
+
+/* =========================================
+   CONTINUE BUTTON
+========================================= */
+
+.base-location-continue-btn {
+  width: 100%;
+
+  min-width: 0;
+
+  height: 45px;
+
+  padding: 0 15px;
+
+  border: none;
+
+  border-radius: 11px;
+
+  background: #286292;
+
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background 0.2s ease;
+}
+
+.base-location-continue-btn:hover {
+  background: #22557f;
+}
+
+.base-location-continue-btn:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+  .base-location-content {
+    padding: 30px 20px 0;
+
+    /* NO SLIDER */
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .base-location-content::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+
+  .base-location-icon {
+    width: 52px;
+    height: 52px;
+
+    margin-bottom: 25px;
+  }
+
+  .base-location-icon svg {
+    font-size: 28px;
+  }
+
+  .base-location-content h2 {
+    font-size: 19px;
+  }
+
+  .base-location-description {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .base-location-info-card {
+    margin-top: 20px;
+    padding: 12px;
+  }
+
+  .base-location-info-card h4 {
+    font-size: 12px;
+  }
+
+  .base-location-info-card p {
+    font-size: 10px;
+  }
+
+  .base-location-permission-card {
+    margin-top: 8px;
+    padding: 12px;
+  }
+
+  .base-location-permission-text {
+    font-size: 10px;
+  }
+
+  .base-location-footer {
+    padding: 0 20px 20px;
+  }
+
+  .base-location-continue-btn {
+    width: 100%;
+    height: 45px;
+    font-size: 12px;
+  }
+}
+
+.sales-agent-page {
+    min-height: 100vh;
+    width: 100%;
+    background: #dfe3e8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px;
+}
+
+/* MAIN MOBILE CARD */
+
+.sales-agent-card {
+    width: 100%;
+    max-width: 282px;
+    height: calc(100vh - 24px);
+    max-height: 610px;
+    min-height: 520px;
+
+    background: #ffffff;
+
+    border-radius: 28px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 2px 5px rgba(0, 0, 0, 0.08),
+        0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* TOP BAR */
+
+.sales-agent-progress {
+    height: 31px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 16px;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    color: #6b7280;
+
+    font-size: 9px;
+    font-weight: 500;
+}
+
+/* CONTENT */
+
+.sales-agent-content {
+    padding: 25px 15px 0;
+}
+
+/* SHIELD */
+
+.sales-agent-icon-box {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 12px;
+
+    background: #e8f3fd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.sales-agent-icon-box svg {
+    font-size: 23px;
+    color: #175589;
+}
+
+/* TITLE */
+
+.sales-agent-content h2 {
+    margin: 0 0 7px;
+
+    color: #111827;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    line-height: 1.3;
+}
+
+.sales-agent-content h2 span {
+    font-size: 16px;
+}
+
+/* DESCRIPTION */
+
+.sales-agent-description {
+    margin: 0;
+
+    color: #687386;
+
+    font-size: 11px;
+
+    line-height: 17px;
+
+    max-width: 245px;
+}
+
+/* REQUIREMENTS */
+
+.sales-agent-requirements {
+    margin-top: 18px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.sales-agent-requirement {
+    width: 100%;
+    height: 34px;
+
+    border-radius: 10px;
+
+    background: #f5f7fa;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 11px;
+
+    gap: 10px;
+}
+
+.sales-agent-requirement svg {
+    font-size: 16px;
+
+    color: #687386;
+}
+
+.sales-agent-requirement span {
+    color: #111827;
+
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* FOOTER */
+
+.sales-agent-footer {
+    margin-top: auto;
+
+    padding: 0 15px 18px;
+}
+
+/* START BUTTON */
+
+.sales-agent-start-btn {
+    width: 100%;
+    height: 36px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #245a8c;
+    color: #ffffff;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.sales-agent-start-btn:hover {
+    background: #1d4d7a;
+}
+
+.sales-agent-start-btn:active {
+    transform: scale(0.99);
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+    .sales-agent-page {
+        padding: 0;
+    }
+
+    .sales-agent-card {
+        max-width: 100%;
+        height: 100vh;
+        max-height: none;
+        min-height: 100vh;
+
+        border-radius: 0;
+    }
+}
+
+/* DESKTOP - KEEP MOBILE CARD LOOK */
+
+@media (min-width: 481px) {
+    .sales-agent-card {
+        height: calc(100vh - 24px);
+    }
+}
+
+/* ================================
+   POLICY STEP
+================================ */
+
+.policy-content {
+    padding: 25px 15px 0;
+}
+
+.policy-content h2 {
+    margin: 0 0 7px;
+
+    color: #111827;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    line-height: 1.3;
+}
+
+.policy-description {
+    margin: 0;
+
+    color: #687386;
+
+    font-size: 11px;
+
+    line-height: 17px;
+
+    max-width: 245px;
+}
+
+/* ================================
+   PDF CARD
+================================ */
+
+.policy-pdf-card {
+    margin-top: 20px;
+
+    width: 100%;
+    min-height: 59px;
+
+    border: 1px solid #dce1e7;
+
+    border-radius: 10px;
+
+    background: #f8fafc;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px 10px;
+
+    cursor: pointer;
+}
+
+/* PDF ICON */
+
+.policy-pdf-icon {
+    width: 34px;
+    height: 34px;
+
+    border-radius: 8px;
+
+    background: #ffe8e8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.policy-pdf-icon svg {
+    font-size: 20px;
+    color: #ef4444;
+}
+
+/* PDF DETAILS */
+
+.policy-pdf-info {
+    flex: 1;
+
+    min-width: 0;
+
+    margin-left: 9px;
+}
+
+.policy-pdf-name {
+    color: #111827;
+
+    font-size: 10px;
+    font-weight: 500;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.policy-pdf-meta {
+    margin-top: 3px;
+
+    color: #8993a4;
+
+    font-size: 9px;
+}
+
+.policy-open-icon {
+    font-size: 16px !important;
+
+    color: #155a91;
+
+    margin-left: 6px;
+}
+
+/* ================================
+   HELP TEXT
+================================ */
+
+.policy-help-text {
+    margin: 9px 0 0;
+
+    color: #8b95a5;
+
+    font-size: 9px;
+
+    line-height: 13px;
+
+    max-width: 245px;
+}
+
+/* ================================
+   POLICY FOOTER
+================================ */
+
+.policy-footer {
+    margin-top: auto;
+
+    padding: 0 15px 15px;
+}
+
+.policy-divider {
+    width: 100%;
+
+    height: 1px;
+
+    background: #dfe3e8;
+
+    margin-bottom: 13px;
+}
+
+/* CHECKBOX */
+
+.policy-checkbox-row {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 9px;
+
+    cursor: pointer;
+
+    margin-bottom: 12px;
+}
+
+.policy-checkbox-row input {
+    appearance: none;
+
+    width: 15px;
+    height: 15px;
+
+    min-width: 15px;
+
+    margin: 0;
+
+    border: 1px solid #9aa6b5;
+
+    border-radius: 3px;
+
+    background: #fff;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.policy-checkbox-row input:checked {
+    background: #245a8c;
+
+    border-color: #245a8c;
+}
+
+.policy-checkbox-row input:checked::after {
+    content: "✓";
+
+    position: absolute;
+
+    left: 2px;
+    top: -1px;
+
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.policy-checkbox-row span {
+    color: #111827;
+
+    font-size: 9px;
+
+    font-weight: 500;
+
+    line-height: 13px;
+}
+
+/* ================================
+   CONTINUE BUTTON
+================================ */
+
+.policy-continue-btn {
+    width: 100%;
+    height: 36px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #aec9e2;
+
+    color: #fff;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    cursor: not-allowed;
+
+    transition: 0.2s ease;
+}
+
+.policy-continue-btn.active {
+    background: #245a8c;
+
+    cursor: pointer;
+}
+
+.policy-continue-btn.active:hover {
+    background: #1d4d7a;
+}
+
+/* =========================================
+   LOCATION STEP
+========================================= */
+
+.location-content {
+    padding: 24px 14px 0;
+}
+
+.location-content h2 {
+    margin: 20px 0 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+}
+
+.location-description {
+    margin: 0;
+    color: #64748b;
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 250px;
+}
+
+/* Permission box */
+
+.location-permission-box {
+    margin-top: 18px;
+    border: 1px solid #dce2e8;
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.permission-domain {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #64748b;
+    font-size: 9px;
+    margin-bottom: 14px;
+}
+
+.permission-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #e2e6eb;
+}
+
+.permission-question {
+    text-align: center;
+    color: #111827;
+    font-size: 11px;
+    margin-bottom: 14px;
+}
+
+.permission-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.permission-buttons button {
+    width: 50%;
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid #dce2e8;
+    background: #fff;
+    color: #475569;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.permission-buttons button:last-child {
+    background: #245985;
+    border-color: #245985;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Bottom */
+
+.location-footer {
+    margin-top: auto;
+    padding: 20px 14px 14px;
+}
+
+.location-enable-btn {
+    width: 100%;
+    height: 37px;
+    border: none;
+    border-radius: 9px;
+    background: #245985;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.location-enable-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* =========================================
+   STEP 5 - LOCATION CAPTURED
+========================================= */
+
+.location-captured-content {
+    padding: 24px 12px 20px;
+}
+
+.location-captured-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #dff5ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.location-captured-icon svg {
+    font-size: 25px;
+    color: #08775f;
+
+}
+
+.location-captured-content h2 {
+    margin: 0 0 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    margin-left: 10px;
+}
+
+/* LOCATION CARD */
+
+.location-details-card {
+    background: #dff5ee;
+    border-radius: 11px;
+    padding: 14px 13px;
+    margin: 0 8px 18px;
+}
+
+.location-address {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.location-coordinate {
+    font-family: monospace;
+    font-size: 10px;
+    color: #59817a;
+    line-height: 1.8;
+}
+
+/* NEXT STEP */
+
+.location-next-step {
+    width: 100%;
+    min-height: 36px;
+    background: #f5f7fa;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 12px;
+    gap: 10px;
+
+    font-size: 11px;
+    color: #111;
+}
+
+.location-next-step svg {
+    font-size: 16px;
+    color: #6d7885;
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .location-captured-content {
+        padding: 24px 0 20px;
+    }
+
+    .location-captured-content h2 {
+        font-size: 18px;
+    }
+
+    .location-details-card {
+        padding: 14px 12px;
+    }
+
+    .location-address {
+        font-size: 13px;
+    }
+
+    .location-coordinate {
+        font-size: 10px;
+    }
+
+    .location-next-step {
+        min-height: 38px;
+    }
+}
+
+
+/* =========================================
+   STEP 6 - SELFIE CAMERA
+========================================= */
+
+.selfie-camera-screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 590px;
+
+    background: #111;
+    color: #fff;
+
+    overflow: hidden;
+}
+
+/* CAMERA VIDEO */
+
+.selfie-video {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    background: #111;
+}
+
+/* TOP BAR */
+
+.selfie-camera-topbar {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 75px;
+
+    z-index: 10;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 15px 18px;
+}
+
+/* CLOSE */
+
+.camera-close-btn {
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    background: transparent;
+
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: 200;
+
+    line-height: 30px;
+
+    cursor: pointer;
+
+    padding: 0;
+}
+
+/* CAMERA TYPE */
+
+.camera-type-badge {
+    background: rgba(80, 80, 80, 0.85);
+
+    border-radius: 20px;
+
+    padding: 6px 14px;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    margin-top: 0;
+}
+
+/* SWITCH CAMERA */
+
+.camera-switch-btn {
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    background: transparent;
+
+    color: #fff;
+
+    font-size: 25px;
+
+    cursor: pointer;
+
+    padding: 0;
+}
+
+/* BOTTOM */
+
+.selfie-camera-footer {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 25px;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CAPTURE BUTTON */
+
+.selfie-capture-btn {
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    border: 4px solid #555;
+
+    background: #fff;
+
+    padding: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.selfie-capture-btn span {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+    border: 1px solid #111;
+
+    display: block;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .selfie-camera-screen {
+        min-height: 100vh;
+        height: 100%;
+    }
+
+    .selfie-camera-topbar {
+        padding: 14px 16px;
+    }
+
+    .camera-type-badge {
+        font-size: 11px;
+        padding: 6px 13px;
+    }
+
+    .selfie-camera-footer {
+        bottom: 26px;
+    }
+
+    .selfie-capture-btn {
+        width: 58px;
+        height: 58px;
+    }
+}
+
+
+/* =========================================
+   STEP 7 - REVIEW & SUBMIT
+========================================= */
+
+.review-submit-screen {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+/* CONTENT */
+
+.review-scroll-content {
+  flex: 1;
+
+  overflow-y: auto;
+
+  padding: 22px 18px 90px;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.review-scroll-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* TITLE */
+
+.review-scroll-content h2 {
+  margin: 5px 0 16px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #111;
+}
+
+/* SELFIE */
+
+.review-selfie-card {
+  position: relative;
+
+  width: 100%;
+  height: 228px;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  background: #d9e7f2;
+
+  margin-bottom: 14px;
+}
+
+.review-selfie-image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.review-selfie-placeholder {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    #dceaf4,
+    #285b86
+  );
+
+  color: #dce7ef;
+}
+
+.review-selfie-placeholder svg {
+  font-size: 58px;
+}
+
+/* SELFIE BADGE */
+
+.selfie-captured-badge {
+  position: absolute;
+
+  top: 8px;
+  right: 8px;
+
+  padding: 4px 8px;
+
+  border-radius: 12px;
+
+  background: #dff5ec;
+
+  color: #14765c;
+
+  font-size: 9px;
+  font-weight: 600;
+}
+
+/* USER CARD */
+
+.review-user-card {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  background: #f6f8fa;
+
+  margin-bottom: 12px;
+}
+
+.review-avatar {
+  width: 32px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background: #e4f1fb;
+
+  color: #1f5a8c;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 11px;
+}
+
+.review-user-name {
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #222;
+}
+
+.review-user-meta {
+  margin-top: 2px;
+
+  font-size: 9px;
+
+  color: #7b8490;
+}
+
+/* GRID */
+
+.review-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 8px;
+
+  margin-bottom: 8px;
+}
+
+.review-info-card {
+  min-height: 55px;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  background: #f6f8fa;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.review-info-card span,
+.review-location-card span {
+  font-size: 8px;
+
+  color: #8a949f;
+
+  letter-spacing: 0.3px;
+
+  margin-bottom: 5px;
+}
+
+.review-info-card strong {
+  font-size: 10px;
+
+  color: #222;
+
+  font-weight: 500;
+}
+
+/* LOCATION */
+
+.review-location-card {
+  padding: 11px;
+
+  border-radius: 10px;
+
+  background: #f6f8fa;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 14px;
+}
+
+.review-location-card strong {
+  font-size: 10px;
+
+  color: #222;
+
+  font-weight: 500;
+}
+
+/* REMARKS */
+
+.review-remarks {
+  margin-bottom: 15px;
+}
+
+.review-remarks label {
+  display: block;
+
+  font-size: 9px;
+
+  color: #707985;
+
+  margin-bottom: 5px;
+}
+
+.review-remarks textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  resize: none;
+
+  border: 1px solid #dce1e6;
+
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  padding: 10px;
+
+  font-family: inherit;
+
+  font-size: 10px;
+
+  outline: none;
+}
+
+.review-remarks textarea::placeholder {
+  color: #9aa2aa;
+}
+
+.review-remarks textarea:focus {
+  border-color: #28608e;
+}
+
+/* FOOTER */
+
+.review-submit-footer {
+  flex-shrink: 0;
+
+  padding: 10px 18px 16px;
+
+  background: #fff;
+}
+
+.review-submit-btn {
+  width: 100%;
+
+  height: 38px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #245a88;
+
+  color: #fff;
+
+  font-size: 11px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.review-submit-btn:active {
+  transform: scale(0.99);
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+  .review-submit-screen {
+    min-height: 100vh;
+  }
+
+  .review-scroll-content {
+    padding: 20px 18px 90px;
+  }
+
+  .review-selfie-card {
+    height: 228px;
+  }
+
+  .review-submit-footer {
+    padding: 9px 18px 16px;
+  }
+}
+
+
+/* =========================================
+   STEP 8 - VISIT RECORDED
+========================================= */
+
+.visit-recorded-content {
+    flex: 1;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.visit-success-icon {
+    width: 66px;
+    height: 66px;
+    margin-top: 128px;
+    margin-bottom: 18px;
+
+    border-radius: 50%;
+    background: #dff5ef;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visit-success-icon svg {
+    font-size: 40px;
+    color: #075c4e;
+}
+
+.visit-recorded-content h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+}
+
+.visit-recorded-description {
+    margin: 5px 0 18px;
+    font-size: 12px;
+    color: #8b7b91;
+}
+
+
+/* DETAILS CARD */
+
+.visit-details-card {
+    width: 100%;
+    background: #f5f7fa;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.visit-detail-row {
+    min-height: 33px;
+    padding: 0 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    border-bottom: 1px solid #dce1e6;
+}
+
+.visit-detail-row:last-child {
+    border-bottom: none;
+}
+
+.visit-detail-row span {
+    font-size: 10px;
+    color: #66758a;
+}
+
+.visit-detail-row strong {
+    font-size: 8px;
+    font-weight: 500;
+    color: #111;
+}
+
+
+/* FOOTER */
+
+.visit-recorded-footer {
+    padding: 0 18px 18px;
+}
+
+.visit-another-btn {
+    width: 100%;
+    height: 36px;
+
+    border: none;
+    border-radius: 9px;
+
+    background: #215985;
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.visit-another-btn:active {
+    transform: scale(0.99);
+}
+
+.visit-expiry-text {
+    text-align: center;
+    margin-top: 10px;
+
+    font-size: 9px;
+    color: #a58ea5;
+}
+
+/* =========================================
+   DEALER DETAILS
+========================================= */
+
+.review-dealer-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.review-dealer-field {
+  width: 100%;
+}
+
+.review-dealer-field label {
+  display: block;
+  font-size: 9px;
+  color: #707985;
+  margin-bottom: 5px;
+}
+
+.review-dealer-field input {
+  width: 100%;
+  height: 36px;
+  box-sizing: border-box;
+
+  border: 1px solid #dce1e6;
+  border-radius: 10px;
+
+  background: #f8fafc;
+
+  padding: 0 10px;
+
+  font-family: inherit;
+  font-size: 10px;
+  color: #222;
+
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.review-dealer-field input::placeholder {
+  color: #9aa2aa;
+}
+
+.review-dealer-field input:focus {
+  border-color: #28608e;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .review-dealer-fields {
+    gap: 9px;
+  }
+
+  .review-dealer-field input {
+    height: 36px;
+    font-size: 10px;
+  }
+}

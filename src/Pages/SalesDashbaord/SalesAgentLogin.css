@@ -1,0 +1,479 @@
+.sales-agent-login-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(89, 50, 234, 0.12),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(52, 152, 219, 0.10),
+      transparent 35%
+    ),
+    #f5f7fb;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.sales-agent-login-card {
+  width: 100%;
+  max-width: 430px;
+
+  background: #ffffff;
+
+  border-radius: 20px;
+
+  padding: 32px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.08);
+
+  border: 1px solid #edf0f5;
+}
+
+
+.sales-agent-login-icon {
+  width: 50px;
+  height: 50px;
+
+  margin: 0 auto 18px;
+
+  border-radius: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #5932ea,
+      #7255ee
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 8px 20px rgba(89, 50, 234, 0.25);
+}
+
+.sales-agent-login-icon svg {
+  font-size: 30px;
+}
+
+
+/* ================================
+   HEADING
+================================ */
+
+.sales-agent-login-card h3 {
+  margin: 0;
+
+  text-align: center;
+
+  font-size: 22px;
+  font-weight: 700;
+
+  color: #202632;
+}
+
+.sales-agent-login-subtitle {
+  margin: 8px 0 25px;
+
+  text-align: center;
+
+  color: #7c8492;
+
+  font-size: 14px;
+}
+
+
+/* ================================
+   TABS
+================================ */
+
+.sales-agent-login-tabs {
+  display: flex;
+
+  width: 100%;
+
+  background: #f2f4f8;
+
+  border-radius: 10px;
+
+  padding: 4px;
+
+  margin-bottom: 25px;
+
+  box-sizing: border-box;
+}
+
+.sales-agent-login-tabs button {
+  flex: 1;
+
+  border: 0;
+
+  background: transparent;
+
+  padding: 11px 8px;
+
+  border-radius: 8px;
+
+  color: #737b89;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 6px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.sales-agent-login-tabs button svg {
+  font-size: 18px;
+}
+
+.sales-agent-login-tabs button.active {
+  background: #ffffff;
+
+  color: #5932ea;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ================================
+   FORM FIELD
+================================ */
+
+.sales-agent-login-field {
+  margin-bottom: 18px;
+}
+
+.sales-agent-login-field label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #363d49;
+}
+
+
+/* ================================
+   INPUT
+================================ */
+
+.sales-agent-login-input {
+  width: 100%;
+
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 0 13px;
+
+  box-sizing: border-box;
+
+  background: #f8f9fb;
+
+  border: 1px solid #e3e7ee;
+
+  border-radius: 10px;
+
+  transition: 0.2s ease;
+}
+
+.sales-agent-login-input:focus-within {
+  background: #ffffff;
+
+  border-color: #5932ea;
+
+  box-shadow:
+    0 0 0 3px rgba(89, 50, 234, 0.08);
+}
+
+.sales-agent-login-input > svg {
+  color: #8a92a0;
+
+  font-size: 20px;
+
+  flex-shrink: 0;
+}
+
+.sales-agent-login-input input {
+  width: 100%;
+
+  height: 100%;
+
+  border: 0;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #242a35;
+
+  font-size: 14px;
+}
+
+.sales-agent-login-input input::placeholder {
+  color: #a0a7b2;
+}
+
+
+/* ================================
+   PASSWORD TOGGLE
+================================ */
+
+.password-toggle {
+  border: 0;
+
+  background: transparent;
+
+  color: #858d9b;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+  padding: 0;
+}
+
+.password-toggle svg {
+  font-size: 19px;
+}
+
+
+/* ================================
+   OTP INFO
+================================ */
+
+.sales-agent-otp-info {
+  margin-top: 7px;
+
+  font-size: 11px;
+
+  color: #7c8492;
+}
+
+
+/* ================================
+   LOGIN BUTTON
+================================ */
+
+.sales-agent-login-btn {
+  width: 100%;
+
+  height: 40px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  margin-top: 5px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #5932ea,
+      #6847e9
+    );
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 7px 18px rgba(89, 50, 234, 0.20);
+
+  transition: 0.2s ease;
+}
+
+.sales-agent-login-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 10px 22px rgba(89, 50, 234, 0.28);
+}
+
+.sales-agent-login-btn:disabled {
+  opacity: 0.65;
+
+  cursor: not-allowed;
+}
+
+
+/* ================================
+   RESEND
+================================ */
+
+.sales-agent-resend-btn {
+  width: 100%;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #5932ea;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  margin-top: 15px;
+
+  cursor: pointer;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.sales-agent-login-footer {
+  margin-top: 25px;
+
+  padding-top: 18px;
+
+  border-top: 1px solid #edf0f4;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  color: #9aa1ad;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 576px) {
+
+  .sales-agent-login-page {
+    min-height: 100dvh;
+
+    padding: 15px;
+
+    align-items: center;
+  }
+
+  .sales-agent-login-card {
+    max-width: 100%;
+
+    padding: 25px 20px;
+
+    border-radius: 18px;
+  }
+
+  .sales-agent-login-icon {
+    width: 58px;
+    height: 58px;
+
+    border-radius: 16px;
+
+    margin-bottom: 15px;
+  }
+
+  .sales-agent-login-icon svg {
+    font-size: 27px;
+  }
+
+  .sales-agent-login-card h1 {
+    font-size: 23px;
+  }
+
+  .sales-agent-login-subtitle {
+    font-size: 13px;
+
+    margin-bottom: 22px;
+  }
+
+  .sales-agent-login-tabs button {
+    font-size: 12px;
+
+    padding: 10px 5px;
+  }
+
+  .sales-agent-login-input {
+    height: 48px;
+  }
+
+  .sales-agent-login-btn {
+    height: 50px;
+
+    font-size: 14px;
+  }
+}
+
+
+/* ================================
+   VERY SMALL MOBILE
+================================ */
+
+@media (max-width: 360px) {
+
+  .sales-agent-login-card {
+    padding: 22px 16px;
+  }
+
+  .sales-agent-login-tabs button {
+    gap: 4px;
+
+    font-size: 11px;
+  }
+
+  .sales-agent-login-tabs button svg {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.pdf-container * {
+  color: #000000 !important;
+  border-color: #d1d5db !important;
+  box-shadow: none !important;
+}
+
+.pdf-container {
+  background: #ffffff !important;
+}
